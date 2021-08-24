@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scada:ital,wght@1,700&display=swap');
+body {
+    height: 100vh;
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.card {
+    width: 375px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+}
+
+form {
+    position: relative;
+    font-family: 'Asap', sans-serif;
+}
+
+.home-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #9fa4a8;
+}
+
+.home-submit:hover {
+    color: #53616e;
+}
+
+.home-submit:focus {
+    box-shadow: none !important;
+}
+
+.error-submit {
+    background-color: black;
+    color: whitesmoke !important;
+}
+
+.error-submit:focus {
+    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, 0.5) !important;
+}
+
+.description {
+    padding-top: 10px;
+}
+
+.description .row {
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Scada', sans-serif;
+}
+
+hr {
+    border-bottom: 1px solid whitesmoke;
+    margin-top: 8px;
+}
+
+@media (max-width: 575px) {
+    .card {
+        width: 350px;
+    }
+    .description {
+        text-align: center;
+    }
+}
